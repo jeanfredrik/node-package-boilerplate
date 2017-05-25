@@ -1,1 +1,6 @@
-extends: airbnb-base
+extends:
+  - airbnb-base
+  - plugin:flowtype/recommended
+plugins:
+  - flowtype
+parser: babel-eslint
