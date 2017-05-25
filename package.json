@@ -4,11 +4,11 @@
   "private": true,
   "description": "A good starting point for new node packages",
   "main": "dist/index.js",
-  "author": "jeanfredrik <jeanfredrik@gmail.com>",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "test:watch": "npm run test -- --watch"
   },
+  "author": "Fredrik Johansson <jeanfredrik@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-node6": "^11.0.0",
